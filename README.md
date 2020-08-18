@@ -1,2 +1,1 @@
-# java-template-test
-Test Template for Java assignments
+Erweitere die Klasse MyProgram, so dass "Hello, World" ausgegeben wird.
