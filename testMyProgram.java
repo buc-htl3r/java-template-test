@@ -1,5 +1,3 @@
-package com.example.project;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.DisplayName;
@@ -12,14 +10,14 @@ import java.io.*;
 public class TestHello {
 
    @Test
-   public void testHelloWorld()
+   public void testMyProgram()
    {
      PrintStream originalOut = System.out;
      ByteArrayOutputStream bos = new ByteArrayOutputStream();
      System.setOut(new PrintStream(bos));
 
      // action
-     Hello.main(null);
+     MyProgram.main(null);
 
      // assertion
      assertEquals("Hello world!\n", bos.toString());
