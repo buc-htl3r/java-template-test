@@ -1,2 +1,4 @@
 language: java
-install: javac MyProgram.java && java MyProgram
+script:
+- javac MyProgram.java
+- java MyProgram
